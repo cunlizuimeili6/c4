@@ -54,6 +54,33 @@ int main(){
             scanf("%c",&a);
             scanf("%c",&a);
         }
+        if(code==4){
+            char a;
+            int x;
+            int y;
+            printf("dangqianweizhi\n");
+            scanf("%d",&x);
+            scanf("%d",&y);
+            double min=100000;
+            int carID=0;
+            for(int i=0;index>i;i++){
+                int dx=x-arr[i].x;
+                int dy=y-arr[i].y;
+                double l=sqrt(dx*dx+dy*dy);
+                if(min>l){
+                    min=l;
+                    carID=i;
+                }
+            }
+            printf("dangqianweizhiyudi %d gecheliangjuliwei %lf,shizuixiaojuli\n",carID+1,min);
+            printf("jixu\n");
+            scanf("%c",&a);
+            scanf("%c",&a);
+        }
+        if(code==5){
+            printf("tuichu\n");
+            break;
+        }
     }
     return 0;
 
