@@ -44,6 +44,16 @@ int main(){
             scanf("%c",&a);
             }
         }
+        if(code==3){
+            char a;
+            printf("xianshisouyou\n");
+            for(int i=0;index>i;i++){
+                printf("di %d geweizhi (%d,%d)\n",i+1,arr[i].x,arr[i].y);
+            }
+            printf("jixu\n");
+            scanf("%c",&a);
+            scanf("%c",&a);
+        }
     }
     return 0;
 
