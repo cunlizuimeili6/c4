@@ -31,6 +31,19 @@ int main(){
             scanf("%c",&a);
             scanf("%c",&a);
         }
+        if(code==2){
+            char a;
+            if(index>0){
+                index--;
+            printf("chenggongjixu\n");
+            scanf("%c",&a);
+            scanf("%c",&a);
+            }else{
+            printf("shibaijixu\n");
+            scanf("%c",&a);
+            scanf("%c",&a);
+            }
+        }
     }
     return 0;
 
